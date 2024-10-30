@@ -7,11 +7,11 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.luvu4ever.gmail.adapter.EmailAdapter
-import com.luvu4ever.gmail.databinding.ActivityMainBinding
 import com.luvu4ever.gmail.model.Email
+import com.luvu4ever.gmail.databinding.ActivityMainBinding
+
 
 class MainActivity : AppCompatActivity() {
-
     private lateinit var binding: ActivityMainBinding
     private lateinit var emailAdapter: EmailAdapter
 
